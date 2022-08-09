@@ -1,0 +1,27 @@
+{
+  "name": "li-ion-discord-bot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^14.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dante4600/Li-ion-discord-bot.git"
+  },
+  "author": "dante4600",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dante4600/Li-ion-discord-bot/issues"
+  },
+  "homepage": "https://github.com/dante4600/Li-ion-discord-bot#readme",
+  "description": ""
+}
