@@ -1,6 +1,5 @@
 const {Client, GatewayIntentBits} = require('discord.js');
 
-const {token} = require('./auth.json');
 const client = new Client({intents: [GatewayIntentBits.DirectMessages]});
 
 client.on('ready', () => {
@@ -15,4 +14,4 @@ client.on('interactionCreate', async (interaction) => {
   }
 });
 
-client.login(token);
+module.exports = {client};

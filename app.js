@@ -1,5 +1,6 @@
 const {REST, Routes} = require('discord.js');
 const {token, appID} = require('./auth.json');
+const {client: bot} = require('./server/src/bot');
 
 const commands = [
   {
@@ -23,3 +24,5 @@ const rest = new REST({version: '10'}).setToken(token);
     console.error(error);
   }
 })();
+
+bot.login(token);
